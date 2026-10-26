@@ -1,5 +1,3 @@
-# 原件
+# 技能里的内容
 
-技能里不再附带 PDF。口诀、易混点和速记要点在 `suji/`，真题和模拟题在 `questions/bank.jsonl`。
-
-原始 PDF 仍在 `D:\工作\社工证资料`。用户明确要看某一页原件时，去那里找。
+口诀、易混点和速记要点在 `suji/`。真题和模拟题在 `questions/bank.jsonl`。章节地图在 `exam-map.md`。

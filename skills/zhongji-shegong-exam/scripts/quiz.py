@@ -304,7 +304,7 @@ def cmd_grade(args) -> None:
     if q["type"] == "case":
         rating = (args.rating or "").lower()
         if rating not in {"full", "half", "wrong"}:
-            print(q.get("explain") or "这题没有抽到解析，请对照原 PDF。")
+            print(q.get("explain") or "这题没有解析。")
             print("案例请按要点自评后重跑，并带上 --rating full|half|wrong")
             return
         ok = rating == "full"
